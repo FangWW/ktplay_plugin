@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/btn_showkt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:src="@drawable/icon"/>
+
+        <ImageView
+            android:id="@+id/img_new_msg"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_gravity="right"
+            android:src="@drawable/new_msg_hint"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</FrameLayout>
